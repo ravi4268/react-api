@@ -16,7 +16,7 @@ const PutApi = () => {
     
     try {
       const res = await fetch("https://jsonplaceholder.typicode.com/posts/1", {
-        method: "PUT", // PUT And PATCH API Request
+        method: "PUT", // PUT And PATCH API Request Of This Code
         headers: {                    
          "Content-Type": "application/json",
         },   
