@@ -36,7 +36,7 @@ return (
 <input type="text" placeholder="Title" value={title}onChange={(e) => setTitle(e.target.value)} style={{ marginBottom: '10px' }}/>
 <br />
 
-<textarean placeholder="Body" value={body} onChange={(e) => setBody(e.target.value)} rows="4" cols="50"/>
+<textarea placeholder="Body" value={body} onChange={(e) => setBody(e.target.value)} rows="4" cols="50"/>
 <br />
 
 <button type="submit">Submit</button>
